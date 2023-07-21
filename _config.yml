@@ -14,9 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 lang: en-US
-title: Basically Basic
-email: dugan.nash@mailinator.com
-description: "Your new default Jekyll theme"
+title: USC Libraries ILS Team
+email: ils@usc.edu
+description: "ILS Team blank site for hosting static contents"
 baseurl: "/"  # the subpath of your site, e.g. /blog
 url: ""  # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -25,47 +25,5 @@ url: ""  # the base hostname & protocol for your site, e.g. http://example.com
 liquid:
   error_mode: strict
 
-# Build settings
-markdown: kramdown
-
 feed:
   path: atom.xml
-
-# Pagination - https://jekyllrb.com/docs/pagination/
-paginate: 10
-paginate_path: /page:num/
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-# Collections
-collections:
-  recipes:
-    output: true
-    permalink: /:collection/:path/
-
-# Front Matter Defaults
-defaults:
-  # _posts
-  - scope:
-      path: "_posts"
-      type: posts
-    values:
-      layout: post
-      read_time: true
-  # _recipes
-  - scope:
-      path: "_recipes"
-      type: recipes
-    values:
-      layout: post
-      read_time: true
