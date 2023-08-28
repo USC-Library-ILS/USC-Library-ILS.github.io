@@ -4,6 +4,8 @@ const urlParams = new URLSearchParams(queryString);
 const url = urlParams.get('url')
 /* Fetch the RSS Feed */
 fetch(url).then((res) => {
+	var frag = document.createDocumentFragment()
+	var hasBegun = true
 	res.text().then((xmlTxt) => {
 		/* Parse the RSS Feed and display the content */
 		try {
@@ -24,6 +26,10 @@ fetch(url).then((res) => {
 		} catch (e) {
 			console.error('Error in parsing the feed')
 		}
-		
+		if(hasBegun) {
+			document.querySelector('output').textContent = ''; 
+			hasBegun = false;
+		}
+		document.querySelector('output').appendChild(frag)
 	})
 })
