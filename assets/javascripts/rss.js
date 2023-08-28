@@ -25,9 +25,9 @@ fetch(url).then((res) => {
 			console.error('Error in parsing the feed')
 		}
 		if(hasBegun) {
-			document.querySelector('output').textContent = ''; 
+			document.querySelector('#output').textContent = ''; 
 			hasBegun = false;
 		}
-		document.querySelector('output').appendChild(frag)
+		document.querySelector('#output').appendChild(frag)
 	})
 })
