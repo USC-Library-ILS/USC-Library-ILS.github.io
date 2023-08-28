@@ -17,8 +17,8 @@ fetch(url).then((res) => {
 				let temp = document.importNode(document.querySelector('template').content, true);
 				let i = item.querySelector.bind(item)
 				let t = temp.querySelector.bind(temp)
-				t('a').textContent = !!i('title') ? i('title').textContent : '-'
-				t('a').textContent = t('a').href = !!i('link') ? i('link').textContent : '#'
+				t('a').href = !!i('link') ? i('link').textContent : '#'
+				t('a').textContent = t('a').innerHTML = !!i('title') ? i('title').textContent : '-'
 				frag.appendChild(temp)
 			})
 		} catch (e) {
