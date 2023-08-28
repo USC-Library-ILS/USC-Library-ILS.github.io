@@ -24,6 +24,6 @@ fetch(url).then((res) => {
 		} catch (e) {
 			console.error('Error in parsing the feed')
 		}
-		document.querySelector('output').appendChild(frag)
+		
 	})
 })
