@@ -42,4 +42,5 @@ fetch('/assets/misc/urls.json').then((res) => {
 					})
 				}).catch(() => console.error('Error in fetching the RSS feed'))
 	})
+	})
 }).catch(() => console.error('Error in fetching the URLs json'))
