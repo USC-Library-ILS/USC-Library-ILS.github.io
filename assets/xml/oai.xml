@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
          http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
     <responseDate>2024-11-08T23:59:59Z</responseDate>
-    <request verb="GetRecord" set="OAI-PMH_Harvest" identifier="oai:digitallibrary.usc.edu:UC111149084">https://digitallibrary.usc.edu/htm/OAI.aspx</request>
+    <request verb="GetRecord" set="OAI-PMH_Harvest" identifier="oai:digitallibrary.usc.edu:UC111149084" metadataPrefix="oai_dc">https://digitallibrary.usc.edu/htm/OAI.aspx</request>
     <GetRecord>
         <record>
             <header>
@@ -21,7 +21,7 @@
                     <dc.rights>Rights Digital Object: Arlo Griffiths. Rights Physical Object: Department of Archaeology, Burma. Rights Publication Permission: For educational use only. All requests for permission to publish must be submitted in writing to Arlo Griffiths. Credit: Photograph by Arlo Griffiths. Courtesy Department of Archaeology, Burma.</dc.rights>
                     <dc.date>2016-05-01T00:00:00Z</dc.date>
                     <dc.format>5616 x 3744 pixels (Photo Dimensions),digital color image (Film Type Code),image/tiff (Digital Object Format),Sectional (Magnification Code)</dc.format>
-                    <dc.identifier>ISF_DO_115155</dc.identifier>
+                    <dc.identifier>oai:digitallibrary.usc.edu:UC111149084</dc.identifier>
                     <dc.language>Pyu</dc.language>
                 </oai_dc:dc>
             </metadata>
