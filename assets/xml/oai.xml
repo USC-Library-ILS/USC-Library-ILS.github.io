@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
-         http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
     <responseDate>2024-11-08T23:59:59Z</responseDate>
     <request verb="GetRecord" set="OAI-PMH_Harvest" identifier="oai:digitallibrary.usc.edu:UC111149084" metadataPrefix="oai_dc">https://digitallibrary.usc.edu/htm/OAI.aspx</request>
     <GetRecord>
