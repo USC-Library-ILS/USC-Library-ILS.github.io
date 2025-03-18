@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
+         http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2025-03-18T17:56:01Z</responseDate>
+    <request verb="ListIdentifiers" metadataPrefix="oai_dc">https://usc-library-ils.github.io/assets/xml/oai.xml</request>
+    <ListIdentifiers>
+        <header>
+            <identifier>oai:digitallibrary.usc.edu:UC11399GBZ5</identifier>
+            <datestamp>2025-03-18T16:08:06Z</datestamp>
+            <setSpec>OAI-PMH Harvest</setSpec>
+        </header>
+        <header>
+            <identifier>oai:digitallibrary.usc.edu:UC11399GBZ5</identifier>
+            <datestamp>2025-03-17T23:28:50Z</datestamp>
+            <setSpec>OAI-PMH Harvest</setSpec>
+        </header>
+    </ListIdentifiers>
+</OAI-PMH>

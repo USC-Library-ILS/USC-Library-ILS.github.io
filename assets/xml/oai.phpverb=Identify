@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
+         http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2025-03-18T17:52:27Z</responseDate>
+    <request verb="Identify">https://usc-library-ils.github.io/assets/xml/oai.xml</request>
+    <Identify>
+        <repositoryName>University of Southern California</repositoryName>
+        <baseURL>https://usc-library-ils.github.io/assets/xml/oai.xml</baseURL>
+        <protocolVersion>2.0</protocolVersion>
+        <adminEmail>uscdl@usc.edu</adminEmail>
+        <earliestDatestamp>2012-08-27T10:42:50Z</earliestDatestamp>
+        <deletedRecord>no</deletedRecord>
+        <granularity>YYYY-MM-DDThh:mm:ssZ</granularity>
+        <description>
+            <oai-identifier xmlns="http://www.openarchives.org/OAI/2.0/oai-identifier" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai-identifier
+		http://www.openarchives.org/OAI/2.0/oai-identifier.xsd">
+                <scheme>oai</scheme>
+                <repositoryIdentifier>digitallibrary.usc.edu</repositoryIdentifier>
+                <delimiter>:</delimiter>
+                <sampleIdentifier>oai:digitallibrary.usc.edu:ABC1234</sampleIdentifier>
+            </oai-identifier>
+        </description>
+    </Identify>
+</OAI-PMH>

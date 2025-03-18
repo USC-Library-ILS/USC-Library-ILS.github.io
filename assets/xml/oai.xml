@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
          http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
     <responseDate>2025-03-18T17:30:19Z</responseDate>
-    <request verb="GetRecord" set="OAI-PMH Harvest" identifier="oai:digitallibrary.usc.edu:UC11399GBZ5">https://digitallibrary.usc.edu/htm/OAI.aspx</request>
+    <request verb="GetRecord" set="OAI-PMH Harvest" identifier="oai:digitallibrary.usc.edu:UC11399GBZ5">https://usc-library-ils.github.io/assets/xml/oai.xml</request>
     <GetRecord>
         <record>
             <header>
